@@ -1,0 +1,23 @@
+{
+  "name": "realtime-youtube-counter",
+  "version": "1.0.0",
+  "description": "A realtime subscriber counter for YouTube made with VueJS.",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rody Molenaar <rody.molenaar@xtrada.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "odometer": "^0.4.7",
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^0.13.7",
+    "laravel-elixir": "^6.0.0-1",
+    "laravel-elixir-browserify-official": "^0.1.3"
+  }
+}
